@@ -48,10 +48,10 @@ public class App {
 
         double totalSF=0;
 
-        switch(choice){
+        switch (choice){
 
             case 'R':
-                totalSF = (double) calculateRectangleArea();
+                totalSF = calculateRectangleArea();
                 break;
 
             case 'C':
@@ -68,7 +68,7 @@ public class App {
 
 
 
-        double totalPaintNeeded = ((double)(totalSF))/convert;
+        double totalPaintNeeded = (totalSF)/convert;
 
         int totalGallonNeeded =(int)Math.ceil(totalPaintNeeded );
 
@@ -132,4 +132,5 @@ public class App {
 
 
 }
+
 
